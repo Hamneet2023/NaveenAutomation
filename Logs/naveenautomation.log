@@ -1915,3 +1915,62 @@
 2023-07-09 09:33:28 INFO  TestBase:85 - Finding Element: By.cssSelector: #content>h2:first-of-type
 2023-07-09 09:33:28 INFO  TestBase:91 - Found Element: By.cssSelector: #content>h2:first-of-type
 2023-07-09 09:33:28 INFO  TestBase:167 - Got Text: My Account
+2023-07-09 17:17:03 INFO  TestBase:37 - Navigating to URL: https://naveenautomationlabs.com/opencart/index.php?route=common/home
+2023-07-09 17:17:10 INFO  TestBase:43 - Navigated to URL: https://naveenautomationlabs.com/opencart/index.php?route=common/home
+2023-07-09 17:17:12 INFO  TestBase:12 - Test execution started for validateLogin*****************
+2023-07-09 17:17:12 INFO  TestBase:85 - Finding Element: By.cssSelector: ul.list-inline>li:nth-of-type(2)>a
+2023-07-09 17:17:12 INFO  TestBase:91 - Found Element: By.cssSelector: ul.list-inline>li:nth-of-type(2)>a
+2023-07-09 17:17:14 INFO  TestBase:103 - Clicked ON: [[EdgeDriver: msedge on WINDOWS (6dbb62c9381c08310d7c3834a27f5f7f)] -> css selector: ul.list-inline>li:nth-of-type(2)>a]
+2023-07-09 17:17:14 INFO  TestBase:85 - Finding Element: By.cssSelector: ul.dropdown-menu>li:nth-of-type(2)>a
+2023-07-09 17:17:14 INFO  TestBase:91 - Found Element: By.cssSelector: ul.dropdown-menu>li:nth-of-type(2)>a
+2023-07-09 17:17:17 INFO  TestBase:103 - Clicked ON: [[EdgeDriver: msedge on WINDOWS (6dbb62c9381c08310d7c3834a27f5f7f)] -> css selector: ul.dropdown-menu>li:nth-of-type(2)>a]
+2023-07-09 17:17:17 INFO  TestBase:85 - Finding Element: By.id: input-email
+2023-07-09 17:17:18 INFO  TestBase:91 - Found Element: By.id: input-email
+2023-07-09 17:17:20 INFO  TestBase:85 - Finding Element: By.id: input-password
+2023-07-09 17:17:20 INFO  TestBase:91 - Found Element: By.id: input-password
+2023-07-09 17:17:21 INFO  TestBase:85 - Finding Element: By.cssSelector: input[value="Login"]
+2023-07-09 17:17:21 INFO  TestBase:91 - Found Element: By.cssSelector: input[value="Login"]
+2023-07-09 17:17:23 INFO  TestBase:103 - Clicked ON: [[EdgeDriver: msedge on WINDOWS (6dbb62c9381c08310d7c3834a27f5f7f)] -> css selector: input[value="Login"]]
+2023-07-09 17:17:23 INFO  TestBase:85 - Finding Element: By.cssSelector: #content>h2:first-of-type
+2023-07-09 17:17:23 INFO  TestBase:91 - Found Element: By.cssSelector: #content>h2:first-of-type
+2023-07-09 17:17:24 INFO  TestBase:167 - Got Text: My Account
+2023-07-09 17:17:24 INFO  TestBase:16 - TestvalidateLoginPassed---------------
+2023-07-09 17:17:32 INFO  TestBase:37 - Navigating to URL: https://naveenautomationlabs.com/opencart/index.php?route=common/home
+2023-07-09 17:17:36 INFO  TestBase:43 - Navigated to URL: https://naveenautomationlabs.com/opencart/index.php?route=common/home
+2023-07-09 17:17:37 INFO  TestBase:12 - Test execution started for validateRegisterUsingValidCredentials*****************
+2023-07-09 17:17:37 INFO  TestBase:85 - Finding Element: By.cssSelector: ul.list-inline>li:nth-of-type(2)>a
+2023-07-09 17:17:37 INFO  TestBase:91 - Found Element: By.cssSelector: ul.list-inline>li:nth-of-type(2)>a
+2023-07-09 17:17:38 INFO  TestBase:103 - Clicked ON: [[EdgeDriver: msedge on WINDOWS (73d37e18d8d5f03721409d2494abf67c)] -> css selector: ul.list-inline>li:nth-of-type(2)>a]
+2023-07-09 17:17:38 INFO  TestBase:85 - Finding Element: By.cssSelector: ul.dropdown-menu>li:nth-of-type(1)>a
+2023-07-09 17:17:38 INFO  TestBase:91 - Found Element: By.cssSelector: ul.dropdown-menu>li:nth-of-type(1)>a
+2023-07-09 17:17:41 INFO  TestBase:103 - Clicked ON: [[EdgeDriver: msedge on WINDOWS (73d37e18d8d5f03721409d2494abf67c)] -> css selector: ul.dropdown-menu>li:nth-of-type(1)>a]
+2023-07-09 17:17:41 INFO  TestBase:85 - Finding Element: By.id: input-firstname
+2023-07-09 17:17:41 INFO  TestBase:91 - Found Element: By.id: input-firstname
+2023-07-09 17:17:43 INFO  TestBase:85 - Finding Element: By.id: input-lastname
+2023-07-09 17:17:44 INFO  TestBase:91 - Found Element: By.id: input-lastname
+2023-07-09 17:17:45 INFO  TestBase:85 - Finding Element: By.id: input-email
+2023-07-09 17:17:45 INFO  TestBase:91 - Found Element: By.id: input-email
+2023-07-09 17:17:46 INFO  TestBase:85 - Finding Element: By.id: input-telephone
+2023-07-09 17:17:46 INFO  TestBase:91 - Found Element: By.id: input-telephone
+2023-07-09 17:17:47 INFO  TestBase:85 - Finding Element: By.id: input-password
+2023-07-09 17:17:47 INFO  TestBase:91 - Found Element: By.id: input-password
+2023-07-09 17:17:48 INFO  TestBase:85 - Finding Element: By.id: input-confirm
+2023-07-09 17:17:48 INFO  TestBase:91 - Found Element: By.id: input-confirm
+2023-07-09 17:17:49 INFO  TestBase:85 - Finding Element: By.xpath: (//input[@name="newsletter"] )[1]
+2023-07-09 17:17:50 INFO  TestBase:91 - Found Element: By.xpath: (//input[@name="newsletter"] )[1]
+2023-07-09 17:17:50 INFO  TestBase:103 - Clicked ON: [[EdgeDriver: msedge on WINDOWS (73d37e18d8d5f03721409d2494abf67c)] -> xpath: (//input[@name="newsletter"] )[1]]
+2023-07-09 17:17:50 INFO  TestBase:85 - Finding Element: By.cssSelector: div.pull-right>input:nth-of-type(1)
+2023-07-09 17:17:50 INFO  TestBase:91 - Found Element: By.cssSelector: div.pull-right>input:nth-of-type(1)
+2023-07-09 17:17:51 INFO  TestBase:103 - Clicked ON: [[EdgeDriver: msedge on WINDOWS (73d37e18d8d5f03721409d2494abf67c)] -> css selector: div.pull-right>input:nth-of-type(1)]
+2023-07-09 17:17:51 INFO  TestBase:85 - Finding Element: By.cssSelector: div.buttons>div.pull-right>a
+2023-07-09 17:17:51 INFO  TestBase:91 - Found Element: By.cssSelector: div.buttons>div.pull-right>a
+2023-07-09 17:17:53 INFO  TestBase:85 - Finding Element: By.cssSelector: #content>h1
+2023-07-09 17:17:53 INFO  TestBase:91 - Found Element: By.cssSelector: #content>h1
+2023-07-09 17:17:53 INFO  TestBase:167 - Got Text: Your Account Has Been Created!
+2023-07-09 17:17:53 INFO  TestBase:85 - Finding Element: By.cssSelector: div.buttons>div.pull-right>a
+2023-07-09 17:17:53 INFO  TestBase:91 - Found Element: By.cssSelector: div.buttons>div.pull-right>a
+2023-07-09 17:17:55 INFO  TestBase:103 - Clicked ON: [[EdgeDriver: msedge on WINDOWS (73d37e18d8d5f03721409d2494abf67c)] -> css selector: div.buttons>div.pull-right>a]
+2023-07-09 17:17:55 INFO  TestBase:85 - Finding Element: By.cssSelector: #content>h2:first-of-type
+2023-07-09 17:17:55 INFO  TestBase:91 - Found Element: By.cssSelector: #content>h2:first-of-type
+2023-07-09 17:17:55 INFO  TestBase:167 - Got Text: My Account
+2023-07-09 17:17:55 INFO  TestBase:16 - TestvalidateRegisterUsingValidCredentialsPassed---------------

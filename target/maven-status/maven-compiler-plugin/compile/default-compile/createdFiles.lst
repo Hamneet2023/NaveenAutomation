@@ -1,0 +1,16 @@
+com\naveenautomationlabs\AutomationFramework\pages\AccountLogin.class
+com\naveenautomationlabs\AutomationFramework\pages\YourStore.class
+com\naveenautomationlabs\AutomationFramework\base\TestBase.class
+com\naveenautomationlabs\AutomationFramework\pages\MyWishListTable$MyWishListTableEnum.class
+com\naveenautomationlabs\AutomationFramework\Listeners\RetryFailedTests.class
+com\naveenautomationlabs\AutomationFramework\pages\RegisterAccount.class
+com\naveenautomationlabs\AutomationFramework\Listeners\TransformerForRetry.class
+com\naveenautomationlabs\AutomationFramework\Utils\Utils.class
+com\naveenautomationlabs\AutomationFramework\Utils\Browsers.class
+com\naveenautomationlabs\AutomationFramework\Utils\Environments.class
+com\naveenautomationlabs\AutomationFramework\Listeners\CustomListener.class
+com\naveenautomationlabs\AutomationFramework\Listeners\ExtentReportListener.class
+com\naveenautomationlabs\AutomationFramework\pages\MyAccount.class
+com\naveenautomationlabs\AutomationFramework\pages\MyAccountHasBeenCreated.class
+com\naveenautomationlabs\AutomationFramework\pages\MyWishListTable.class
+com\naveenautomationlabs\AutomationFramework\Listeners\WebDriverEvents.class

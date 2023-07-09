@@ -28,7 +28,7 @@ public class TestBase {
 	private WebDriverEvents events;
 	private EventFiringWebDriver eDriver;
 	public static WebDriverWait wait;
-	private Browsers BROWSER=Browsers.EDGE;
+	private Browsers BROWSER=Browsers.CHROME;
 	private Environments ENV = Environments.PROD;
 
 	public TestBase() {

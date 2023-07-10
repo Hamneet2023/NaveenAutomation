@@ -31,6 +31,7 @@ public class TestBase {
 	private Browsers BROWSER=Browsers.CHROME;
 	private Environments ENV = Environments.PROD;
 
+
 	public TestBase() {
 		prop = new Properties();
 		try {
@@ -59,6 +60,7 @@ public class TestBase {
 		//String browserName = prop.getProperty("browser");
 		switch (BROWSER.getBrowseName()) {
 		case "Chrome":
+			 System.out.println("chrome running");
 			wd = WebDriverManager.chromedriver().create();
 			break;
 		case "Edge":

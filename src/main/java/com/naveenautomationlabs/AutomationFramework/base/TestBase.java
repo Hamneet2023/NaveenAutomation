@@ -60,7 +60,6 @@ public class TestBase {
 		//String browserName = prop.getProperty("browser");
 		switch (BROWSER.getBrowseName()) {
 		case "Chrome":
-			 System.out.println("chrome running");
 			wd = WebDriverManager.chromedriver().create();
 			break;
 		case "Edge":
@@ -107,7 +106,7 @@ public class TestBase {
 	}
 
 	public void tearDown() {
-		//wd.quit();
+		wd.quit();
 	}
 
 }

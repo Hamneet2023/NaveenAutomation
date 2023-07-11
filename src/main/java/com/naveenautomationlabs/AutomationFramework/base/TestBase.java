@@ -28,7 +28,7 @@ public class TestBase {
 	private WebDriverEvents events;
 	private EventFiringWebDriver eDriver;
 	public static WebDriverWait wait;
-	private Browsers BROWSER=Browsers.CHROME;
+	//private Browsers BROWSER=Browsers.CHROME;
 	private Environments ENV = Environments.PROD;
 
 
@@ -58,7 +58,8 @@ public class TestBase {
 
 	public void intialisation() {
 		//String browserName = prop.getProperty("browser");
-		switch (BROWSER.getBrowseName()) {
+		String browser = System.getProperty("Browser");
+		switch (browser) {
 		case "Chrome":
 			wd = WebDriverManager.chromedriver().create();
 			break;

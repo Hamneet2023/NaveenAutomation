@@ -8,17 +8,9 @@
   </listeners>
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="com.naveenautomationlabs.AutomationFramework.Tests.YourStoreTest">
-        <methods>
-          <include name="setUp"/>
-          <include name="setUpLogger"/>
-          <include name="quit"/>
-          <include name="validateSideNavigationBarLinks"/>
-        </methods>
-      </class> <!-- com.naveenautomationlabs.AutomationFramework.Tests.YourStoreTest -->
       <class name="com.naveenautomationlabs.AutomationFramework.Tests.MyAccountTest">
         <methods>
-          <include name="validateRegisterUsingValidCredentials"/>
+          <include name="validateLogin"/>
           <include name="quit"/>
           <include name="setUpLogger"/>
           <include name="setUp"/>

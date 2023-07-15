@@ -2212,3 +2212,23 @@
 2023-07-09 18:25:56 INFO  TestBase:91 - Found Element: By.cssSelector: #content>h2:first-of-type
 2023-07-09 18:25:56 INFO  TestBase:167 - Got Text: My Account
 2023-07-09 18:25:56 INFO  TestBase:16 - TestvalidateLoginPassed---------------
+2023-07-09 23:27:11 INFO  TestBase:37 - Navigating to URL: https://naveenautomationlabs.com/opencart/index.php?route=common/home
+2023-07-09 23:27:15 INFO  TestBase:43 - Navigated to URL: https://naveenautomationlabs.com/opencart/index.php?route=common/home
+2023-07-09 23:27:15 INFO  TestBase:85 - Finding Element: By.cssSelector: ul.list-inline>li:nth-of-type(2)>a
+2023-07-09 23:27:15 INFO  TestBase:91 - Found Element: By.cssSelector: ul.list-inline>li:nth-of-type(2)>a
+2023-07-09 23:27:15 INFO  TestBase:103 - Clicked ON: [[ChromeDriver: chrome on WINDOWS (f7ce5277e44c8dc5c227be602b9a5200)] -> css selector: ul.list-inline>li:nth-of-type(2)>a]
+2023-07-09 23:27:15 INFO  TestBase:85 - Finding Element: By.cssSelector: ul.dropdown-menu>li:nth-of-type(2)>a
+2023-07-09 23:27:15 INFO  TestBase:91 - Found Element: By.cssSelector: ul.dropdown-menu>li:nth-of-type(2)>a
+2023-07-09 23:27:16 INFO  TestBase:103 - Clicked ON: [[ChromeDriver: chrome on WINDOWS (f7ce5277e44c8dc5c227be602b9a5200)] -> css selector: ul.dropdown-menu>li:nth-of-type(2)>a]
+2023-07-09 23:27:16 INFO  TestBase:85 - Finding Element: By.id: input-email
+2023-07-09 23:27:16 INFO  TestBase:91 - Found Element: By.id: input-email
+2023-07-09 23:27:16 INFO  TestBase:85 - Finding Element: By.id: input-password
+2023-07-09 23:27:16 INFO  TestBase:91 - Found Element: By.id: input-password
+2023-07-09 23:27:16 INFO  TestBase:85 - Finding Element: By.cssSelector: input[value="Login"]
+2023-07-09 23:27:16 INFO  TestBase:91 - Found Element: By.cssSelector: input[value="Login"]
+2023-07-09 23:27:17 INFO  TestBase:103 - Clicked ON: [[ChromeDriver: chrome on WINDOWS (f7ce5277e44c8dc5c227be602b9a5200)] -> css selector: input[value="Login"]]
+2023-07-09 23:27:17 INFO  TestBase:85 - Finding Element: By.cssSelector: #content>h2:first-of-type
+2023-07-09 23:27:17 INFO  TestBase:91 - Found Element: By.cssSelector: #content>h2:first-of-type
+2023-07-09 23:27:17 INFO  TestBase:167 - Got Text: My Account
+2023-07-15 04:16:33 INFO  TestBase:12 - Test execution started for validateLogin*****************
+2023-07-15 04:16:33 INFO  TestBase:25 - Test execution started for validateLoginskipped################

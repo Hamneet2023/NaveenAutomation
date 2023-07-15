@@ -3,14 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.naveenautomationlabs.AutomationFramework.Tests.YourStoreTest">
+      <class name="com.naveenautomationlabs.AutomationFramework.Tests.MyAccountTest">
         <methods>
-          <include name="setUp"/>
-          <include name="setUpLogger"/>
+          <include name="validateLogin"/>
           <include name="quit"/>
-          <include name="validateSideNavigationBarLinks"/>
+          <include name="setUpLogger"/>
+          <include name="setUp"/>
         </methods>
-      </class> <!-- com.naveenautomationlabs.AutomationFramework.Tests.YourStoreTest -->
+      </class> <!-- com.naveenautomationlabs.AutomationFramework.Tests.MyAccountTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

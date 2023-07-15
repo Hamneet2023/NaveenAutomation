@@ -1,4 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 16.726 s - in TestSuite
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 2, Time elapsed: 0.707 s <<< FAILURE! - in TestSuite
+setUp(com.naveenautomationlabs.AutomationFramework.Tests.MyAccountTest)  Time elapsed: 0.546 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com.naveenautomationlabs.AutomationFramework.Tests.MyAccountTest.setUp(MyAccountTest.java:27)
+

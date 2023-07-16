@@ -5,7 +5,7 @@
     <classes>
       <class name="com.naveenautomationlabs.AutomationFramework.Tests.MyAccountTest">
         <methods>
-          <include name="validateLogin"/>
+          <include name="validateRegisterUsingValidCredentials"/>
           <include name="quit"/>
           <include name="setUpLogger"/>
           <include name="setUp"/>

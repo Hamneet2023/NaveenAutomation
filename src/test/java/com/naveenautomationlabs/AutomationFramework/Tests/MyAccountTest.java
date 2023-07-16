@@ -27,14 +27,26 @@ public class MyAccountTest extends TestBase {
 		intialisation();
 		yourStore = new YourStore();
 	}
+
+	@Test
+	public void test1() {
+		Assert.assertEquals("Hamneet", "Kaur", "Expected Hamneet");
+	}
+
+	@Test
+	public void test() {
+		Assert.assertEquals("Hamneet", "Rattanpal", "Expected Hamneet");
+	}
+
 	@Test
 	public void validateRegisterUsingValidCredentials() {
 		yourStore.clickMyAccountBtn();
 		registerAccount = yourStore.clickRegisterBtn();
 		myAccountCreated = registerAccount.registerPortal();
-		//Assert.assertEquals(myAccountCreated.accountHasBeenCreatedGetText(), "Your Account Has Been Created!");
+		// Assert.assertEquals(myAccountCreated.accountHasBeenCreatedGetText(), "Your
+		// Account Has Been Created!");
 		myAccount = myAccountCreated.continueBtnAfterAccountCreated();
-		//Assert.assertEquals(myAccount.getMyAccountText(), "My Account");
+		// Assert.assertEquals(myAccount.getMyAccountText(), "My Account");
 	}
 
 	@Test
